@@ -1,0 +1,96 @@
+:root{
+    --main-color: white;
+    --border-for-buttons: 2px solid white;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: rgb(128, 128, 250);
+    color: var(--main-color);
+}
+input:focus {
+    border: 2px;
+    box-sizing: border-box;
+}
+.signupHead {
+    display:flex;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+.createAccount > h2{
+    margin-top: 185px;
+    font-size: 48px;
+}
+.createAccount > h4{
+    font-size: 20px;
+    margin-left: 25px;
+    margin-bottom: 75px;
+}
+
+.loginButton {
+    border: var(--border-for-buttons);
+    width: 80px;
+    height: 60px;
+
+}
+a{
+    color: var(--main-color);
+}
+.loginButton > a {
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+    margin-top: 18px;
+    font-size: 20px;
+}
+.signupContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.twoForms {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.fields {
+    margin-right: 15px;
+}
+.formInputname {
+    height: 75px;
+    width: 350px;
+}
+.formJoin{
+    border: var(--border-for-buttons);
+}
+.Join{
+    display:flex;
+    flex-wrap: wrap-reverse;
+}
+.formJoin {
+	margin-bottom: 10px;
+    width: 720px;
+}
+
+.createaccountButton{
+    color:  var(--main-color);
+    background-color: seagreen;
+    height: 80px;
+    width: 740px;
+    font-size: 20px;
+}
+.infoTerms > p {
+    margin-left: 100px;
+}
+.signupGoogle{
+    background-color:  red;
+    text-decoration: none;
+    color: var(--main-color);
+    height: 80px;
+    width: 740px;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
